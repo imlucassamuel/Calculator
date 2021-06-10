@@ -67,8 +67,8 @@ function Home(){
     }
 
     function clearDisplay(){
-        setFirstValue('0');
-        setSecondValue('0');
+        setFirstValue(0);
+        setSecondValue(0);
         setOperation('');
         setResult('');
     }
